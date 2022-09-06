@@ -5,6 +5,10 @@ import com.gec.mall.domain.RespBean;
 import com.gec.mall.pojo.TbBrand;
 import org.springframework.stereotype.Service;
 
+/**
+ * 品牌是实现成
+ */
+
 
 public interface TbBrandService {
 

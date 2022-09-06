@@ -35,7 +35,7 @@
            ok-text="确定"
            cancel-text="取消">
     <a-form
-        :model="news"
+        :model="brand"
         name="basic"
         :label-col="{ span: 8 }"
         :wrapper-col="{ span: 16 }"
@@ -105,7 +105,6 @@ export default defineComponent({
         brandList.value = response.data.data.list;
         pagination.value.current = params.page;
         pagination.value.total = response.data.data.total;
-        console.log("总页数" + response.data.data.total)
       })
     };
     //分页按钮

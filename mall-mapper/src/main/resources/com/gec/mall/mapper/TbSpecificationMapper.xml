@@ -102,6 +102,7 @@
     </selectKey>
     insert into tb_specification (spec_name)
     values (#{specName,jdbcType=VARCHAR})
+
   </insert>
   <insert id="insertSelective" parameterType="com.gec.mall.pojo.TbSpecification">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
